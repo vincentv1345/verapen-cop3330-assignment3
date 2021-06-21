@@ -1,6 +1,9 @@
 package ex43;
 import java.io.*;
-
+/**
+ *  UCF COP3330 Summer 2021 Assignment 3 Solutions
+ *  Copyright 2021 Vincent Verapen
+ */
 public class WebsiteGenerator {
     public static void main(String []args){
         HtmlFile h = new HtmlFile();
