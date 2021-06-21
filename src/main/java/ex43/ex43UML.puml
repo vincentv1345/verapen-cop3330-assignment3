@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+getWebsiteInfo -> htmlfile: Sends info to html file
+ getWebsiteInfo --> CSSFile: converts to CSSFile if user said yes
+getWebsiteInfo -> JavaScriptFile: Converts to js file if user said yes
+htmlFile->WebsiteGenerator: generates website with info
+CSSFile -> WebsiteGenerator: generates website with info
+JavaScriptFile -> WebsiteGenerator: generates website with info
+@enduml

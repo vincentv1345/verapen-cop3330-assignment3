@@ -1,0 +1,8 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+createTextFile -> replaceJavaLines: implements createTextFile methods
+wordFinder -> replaceJavaLines: implements methods from createTextFile and replaceJavaLines
+@enduml
